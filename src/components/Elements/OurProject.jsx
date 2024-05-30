@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const filters = [
-    { label: "Commercial", filter: ".cat-1" },
-    { label: "Education", filter: ".cat-4" },
+    { label: "NSV Enclave", filter: ".cat-1" },
+    { label: "NSV Residency", filter: ".cat-4" },
     { label: "Hospital", filter: ".cat-2" },
     { label: "Residential", filter: ".cat-3" },
     { label: "Office", filter: ".cat-5" },

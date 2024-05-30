@@ -33,35 +33,35 @@ const logos = [
 
 const galleryImages = [
     { 
-        image: require('./../../images/gallery/pic1.jpg') ,
+        image: require('./../../images/gallery/pic1.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic1.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic2.jpg') ,
+        image: require('./../../images/gallery/pic2.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic2.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic3.jpg') ,
+        image: require('./../../images/gallery/pic3.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic3.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic4.jpg') ,
+        image: require('./../../images/gallery/pic4.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic4.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic5.jpg') ,
+        image: require('./../../images/gallery/pic5.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic5.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic6.jpg') ,
+        image: require('./../../images/gallery/pic6.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic6.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic7.jpg') ,
+        image: require('./../../images/gallery/pic7.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic7.jpg')
     },
     { 
-        image: require('./../../images/gallery/pic8.jpg') ,
+        image: require('./../../images/gallery/pic8.jpeg') ,
         thumb: require('./../../images/gallery/thumb/pic8.jpg')
     }
 ]

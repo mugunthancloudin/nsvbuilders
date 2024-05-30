@@ -7,11 +7,11 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./about.css";
 
 const images = [
-  require("./../../images/gallery/pic8.jpg"),
-  require("./../../images/gallery/pic6.jpg"),
-  require("./../../images/gallery/pic9.jpg"),
-  require("./../../images/gallery/pic2.jpg"),
-  require("./../../images/gallery/pic3.jpg"),
+  require("./../../images/gallery/pic8.jpeg"),
+  require("./../../images/gallery/pic6.jpeg"),
+  require("./../../images/gallery/pic1.jpeg"),
+  require("./../../images/gallery/pic2.jpeg"),
+  require("./../../images/gallery/pic3.jpeg"),
 ];
 
 var bnr1 = require("./../../images/background/bg-map.png");

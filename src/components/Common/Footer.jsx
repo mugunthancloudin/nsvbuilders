@@ -7,7 +7,7 @@ var bgimage = require('./../../images/background/bg-site.png');
 class Footer extends React.Component {
     constructor(props) {
         super(props);
-        this.currentstate = {logo: require('./../../images/logo-dark.png')};
+        this.currentstate = {logo: require('./../../images/logo.png')};
     }
     
     updateFooterLogo = (updatedlogo) => {this.currentstate.logo = updatedlogo;}
@@ -55,9 +55,9 @@ class Footer extends React.Component {
                                     <div className="widget widget_about">
                                         {/*<h4 class="widget-title">About Company</h4>*/}
                                         <div className="logo-footer clearfix p-b15">
-                                            <NavLink to={"./"}><img src={this.currentstate.logo} alt="" /></NavLink>
+                                            <NavLink to={"./"}><img src={this.currentstate.logo} alt="headerLogo" className='headerLogo' /></NavLink>
                                         </div>
-                                        <p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>
+                                        <p className="max-w400">NSV Property Developers is recognized as a leading property developer in the industry.</p>
                                         <ul className="social-icons  mt-social-links">
                                             <li><NavLink to={"#"} className="fa fa-google" /></li>
                                             <li><NavLink to={"#"} className="fa fa-rss" /></li>
@@ -72,10 +72,9 @@ class Footer extends React.Component {
                                     <div className="widget widget_address_outer">
                                         <h4 className="widget-title">Contact Us</h4>
                                         <ul className="widget_address">
-                                            <li>34/7 Liverpool Street, Suite 636, London, United Kingdom</li>
-                                            <li>7xthemedemo@gmail.com</li>
-                                            <li>(+298) 012-3456-789</li>
-                                            <li>(+298) 146-6543-480</li>
+                                            <li>NSV Property Developers, 16/90-4A,B, Above Reliance Fresh, Mettupalayam road, P.N.Palayam Coimbatore-641020, TamilNadu, India</li>
+                                            <li>info@nsvproperties.com</li>
+                                            <li>+91 98948 17125</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -100,7 +99,7 @@ class Footer extends React.Component {
                                                 <div className="mt-post-date text-center text-uppercase text-white p-tb5">
                                                     <strong className="p-date">24</strong>
                                                     <span className="p-month">Mar</span>
-                                                    <span className="p-year">2022</span>
+                                                    <span className="p-year">2024</span>
                                                 </div>
                                                 <div className="mt-post-info">
                                                     <div className="mt-post-header">
@@ -118,7 +117,7 @@ class Footer extends React.Component {
                                                 <div className="mt-post-date text-center text-uppercase text-white p-tb5">
                                                     <strong className="p-date">30</strong>
                                                     <span className="p-month">Jan</span>
-                                                    <span className="p-year">2022</span>
+                                                    <span className="p-year">2024</span>
                                                 </div>
                                                 <div className="mt-post-info">
                                                     <div className="mt-post-header">
@@ -145,14 +144,13 @@ class Footer extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="mt-footer-bot-center">
-                                    <span className="copyrights-text">© 2022 Your Company. Designed By 7xtheme.</span>
+                                    <span className="copyrights-text">Copyright © 2023 All rights reserved. Designed By CloudInLabs.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </footer>
                 <Switcher updateFooterLogo={this.updateFooterLogo.bind(this)}/>
-
             </>
         );
     };

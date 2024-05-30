@@ -86,7 +86,7 @@ class Header extends React.Component {
                     <NavLink to={"./"}>
                       <img
                         src={this.state.logo}
-                        alt="Shapen"
+                        alt="headerLogo"
                         className="headerLogo"
                       />
                     </NavLink>
